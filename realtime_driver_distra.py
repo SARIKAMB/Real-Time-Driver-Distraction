@@ -1,18 +1,3 @@
-
-
-from google.colab import drive
-drive.mount('/content/drive')
-
-!mkdir /content/runtime/
-
-!cp /content/drive/My\ Drive/MainProject/Data/dataset.zip /content/runtime/
-
-cd runtime/
-
-!unzip dataset.zip
-
-!cp /content/drive/My\ Drive/MainProject/Data/bottleneck_fc_model.h5 /content/runtime/
-
 # Commented out IPython magic to ensure Python compatibility.
 import pandas as pd
 import numpy as np 
